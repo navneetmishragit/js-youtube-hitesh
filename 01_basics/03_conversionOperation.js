@@ -21,3 +21,19 @@ console.log(booleanIsLoggedIn)
 //1=> true;0=>false
 //"""=>false
 //"navneet"=> true
+
+
+//****************Operation********************** */
+
+
+let value =3
+let negValue=-value
+
+console.log(negValue)
+
+//console.log(2+2)
+//console.log(2-2)
+//console.log(2*2)
+//console.log(2**2) power
+//console.log(2/2)
+//console.log(2%2)
