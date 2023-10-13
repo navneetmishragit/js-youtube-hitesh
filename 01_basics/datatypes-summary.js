@@ -19,3 +19,30 @@ const myObj={
 const myFunction=function(){
     console.log("Hello World");
 }
+
+
+
+
+//******************************* */
+
+//Stack(Primitive),  Heap(Non Primitive)
+
+let myName="NAVNEET MISHRA"
+
+let anotherName=myName;
+
+anotherName="MISHRA"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne={
+    email:"navneet@gmail.com"
+}
+
+let userTwo= userOne
+userTwo.email="mishra@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
