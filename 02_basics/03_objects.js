@@ -1,4 +1,4 @@
-//singleton
+//singleton  Object.create
 //object constructors
 
 //object literals
