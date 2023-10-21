@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color:#ffff
+        }
+    </style>
+</head>
+<body class="bg-black">
+    
+</body>
+
+<script>
+    // const body=document.querySelector('.bg-black')
+    const div=document.createElement('div')
+    console.log(div);
+    div.className="main"
+    div.id=10
+    // div.innerText="NAVNEET"
+    // body.appendChild(div)
+
+    const addText=document.createTextNode("NAVNEET MISHRA")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+</html>
